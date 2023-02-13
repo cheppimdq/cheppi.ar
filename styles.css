@@ -99,7 +99,7 @@ ul, li {
 }
 img {
       transition: all 1s;
-      max-width: 275px;
+      max-width: 280px;
 }
 img:hover{
       transform: scale(1.1)

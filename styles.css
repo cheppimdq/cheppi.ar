@@ -39,11 +39,10 @@ section {
   background-color: #40444b;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
+  font-size: medium;
 }
 
-h3 {
-  background-color: #40444b;
-}
+
 
 h5, h6 {
   text-align: right;
@@ -98,8 +97,9 @@ ul, li {
   justify-content: center;
 }
 img {
-      transition: all 1s;
+      transition: all 1.1s;
       max-width: 280px;
+      max-height: 250px;
 }
 img:hover{
       transform: scale(1.1)
@@ -167,3 +167,4 @@ img:hover{
     font-size: medium;
   }
 }
+

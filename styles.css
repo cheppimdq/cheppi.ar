@@ -49,6 +49,9 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  column-span: all;
+
 }
 
 h5, h6 {

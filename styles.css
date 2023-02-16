@@ -1,6 +1,6 @@
 * {
   font-family: Quicksand;
-  color:  #dfdfdf;
+  color:  #ffffff;
   margin: 1%;
   border: 1%;
   padding: 1%;
@@ -42,7 +42,14 @@ section {
   font-size: medium;
 }
 
-
+.skills {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 h5, h6 {
   text-align: right;

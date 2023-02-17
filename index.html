@@ -1,67 +1,56 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
 
-    <!-- METADATOS -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">     <!-- METADATOS -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- RESPONSIVE WEB DESIGN - NO HACER ESCROL HORIZONTAL -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- RESPONSIVE WEB DESIGN -->
 
     <title>Lautaro Cheppi</title>
 
-    <!-- FAVICOM -->
-    <link rel="icon" type="image/x-icon" href="web/skull.png" >
+    <link rel="icon" type="image/x-icon" href="web/skull.png" > <!-- FAVICOM -->
 
-    <!-- OPEN GRAPH PROTOCOL -->
-    <meta property="og:title" content="Lautaro Cheppi" />
-    <meta property="og:type" content="web" />
-    <meta property="og:url" content="https://cheppimdq.github.io/cheppi.ar" />
-    <meta property="og:image" src="web/skull.png" /> <!-- NO OLVIDAR PONER IMAGEN PARA COMPARTIR LINKS -->
-    <meta property="og:description" content="cheppimdq" />
+    <meta property="og:title" content="Lautaro Cheppi" /> <!-- OPEN GRAPH PROTOCOL -->
+    <meta property="og:type" content="portfolio" />
+    <meta property="og:url" content="https://www.cheppi.ar" />
+    <meta property="og:image" src="web/skull.png" />    <!-- NO OLVIDAR PONER IMAGEN PARA COMPARTIR LINKS -->
+    <meta property="og:description" content="cheppi" />
 
-    <!-- HOJA DE ESTILO - CAPAS DE PRESENTACION -->
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    
-    <!-- FUENTES DE GOOGLE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="styles.css" />     <!-- HOJA DE ESTILO - CAPAS DE PRESENTACION -->
+    <script src="functions.js"></script>    <!-- JS - FUNCIONES -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">   <!-- FUENTES DE GOOGLE -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
-    
 
 </head>
 
-<body oncontextmenu="return false;">
+<body>
 
-    <!-- H1 -->
-    <header id="inicio" class="banner" style="background-image: url(web/header.jpg);">
-        <img class="circulo" src="web/cheppimdq.jpg" alt="Lautaro Cheppi"/>
+    <header id="top" class="banner" style="background-image: url(web/header.jpg);"> <!-- H1 -->
+        <img class="circle" src="web/cheppimdq.jpg" alt="Lautaro Cheppi"/>
         <h1>Lautaro Cheppi</h1>
     </header>
-    
-    <!-- NAVEGAR -->
-    <nav>
-        <div class="stat">
-            <span class="stat-count">0</span>
-        </div>
+
+    <nav> <!-- NAV -->
         <a href="web/CV LAUTARO CHEPPI.pdf">vitæ</a>
         <a href="#film">film</a>
-        <a href="#teatro">theater</a>
-        <a href="#rock">music</a>
-        <a href="#deporte">sports</a>
-        <a href="#redes">social</a>
+        <a href="#theater">theater</a>
+        <a href="#music">music</a>
+        <a href="#sports">sports</a>
+        <a href="#skills">skills</a>
+        <a href="#social">social</a>
         <a href="https://api.whatsapp.com/send?phone=5492215718347">whatsapp</a>
     </nav>
 
-    <article class="full">
+    <article class="full"> <!-- H2 -->
         <h2>cheppimdq</h2>
         <h4>Whether I am behind the camera capturing stunning visuals or crafting code to bring a website to life, I am constantly pushing my creative boundaries to create captivating experiences that not only look amazing but also deliver a seamless user experience</h4>
     </article>
 
-    <!-- CORTO -->
-    <section id="film">
+    <section id="film"> <!-- CORTO -->
         <h3>A secret revealed, madness, death</h3>
         <h4>Suspense and a game of three</h4>
             <div class="youtube">
@@ -76,11 +65,10 @@
             </div>
     </section>
 
-    <!-- ROCK -->
-    <section id="rock">
+    <section id="music"> <!-- MUSIC -->
         <h3>Music</h3>
         <h4>Concert Photography</h4>
-        <div class="galeria">
+        <div class="galery">
             <img src="jpg/rock (1).jpg">
             <img src="jpg/rock (3).jpg">
             <img src="jpg/rock (7).jpg">
@@ -93,14 +81,10 @@
         <h5>Underground scene</h5>
     </section>
 
-
-
-
-    <!-- TEATRO -->
-    <section id="teatro">
+    <section id="theater"> <!-- TEATRO -->
         <h3>Theater</h3>
         <h4>From streets to big marquees</h4>
-        <div class="galeria">
+        <div class="galery">
             <img src="jpg/IMG_3939.jpg">
             <img src="jpg/IMG_1176.jpg">
             <img src="jpg/IMG_6301.jpg">
@@ -111,11 +95,10 @@
         <h5>All the world's a stage</h5>
     </section>
 
-    <!-- PARALIMPICOS -->
-    <section id="deporte">
+    <section id="sports"> <!-- SPORTS -->
         <h3>Sports</h3>
         <h4>Official photographer @ London 2012 Paralmpic Games</h4>
-            <div class="galeria">
+            <div class="galery">
                 <img src="jpg/IMG_4227.jpg">
                 <img src="jpg/IMG_4542.jpg">
                 <img src="jpg/IMG_8589.jpg">
@@ -128,32 +111,31 @@
             <h5>Awarded - Lobo de Mar</h5>
     </section>
 
-    <section class="skills">
-        <h3 style="color: #202225;">Knowledge and skills</h3>
+    <section id="skills" class="skills"> <!-- SKILLS -->
+        <img src="iconos/ps.png">
+        <img src="iconos/lr.png">
+        <img src="iconos/pr.png">
+        <img src="iconos/matterport.png">
+        <h3 style="color: #202225;">Knowledge & skills</h3>
+        <img src="iconos/html.png">
+        <img src="iconos/css.png">
+        <img src="iconos/js.png">
         <img src="iconos/vsc.png">
-            <img src="iconos/html.png">
-            <img src="iconos/css.png">
-            <img src="iconos/js.png">
-            <img src="iconos/matterport.png">
-            <img src="iconos/ps.png">
-            <img src="iconos/lr.png">
-            <img src="iconos/pr.png">
     </section>
-
-    <article class="full">
-        <h6>Lautaro Cheppi © 2023 All Rights Reserved</h6>
-    </article>
 
     <!-- <section class="banner" style="background-color: #2f3136;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25128.01884083136!2d-57.541239282495134!3d-38.070326262935176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584e7564a8b0cc9%3A0x1eafe002454f2161!2sPunta%20Mogotes!5e0!3m2!1ses!2sar!4v1674367602003!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section> -->
 
-    <nav>
-        <a href="#inicio">.·.</a>
+    <article class="full"> <!-- RIGHTS -->
+        <h6>Lautaro Cheppi © 2023 All Rights Reserved</h6>
+    </article>
+
+    <nav> <!-- TOP -->
+        <a href="#top">.·.</a>
     </nav>
 
-    <!-- FOOTER | SOCIAL NETWORK -->
-    <footer id="redes" class="banner" style="background-image: url(web/header.jpg);">
+    <footer id="social" class="banner" style="background-image: url(web/header.jpg);"> <!-- SOCIAL -->
         <ul>
             <li class="banner">
                 <a href="https://www.linkedin.com/in/cheppi">
@@ -172,6 +154,7 @@
             </li>
         </ul>
     </footer>
+
 </body>
 
 </html>

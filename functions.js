@@ -1,29 +1,26 @@
-// comentario de una sola lines
+// RIGHT CLICK
+
+document.oncontextmenu = function() {
+    return false
+}
+
+function right(e) {
+    var msg ="Lautaro Cheppi © 2023 All Rights Reserved";
+    if (navigator.appName == 'Netscape' && e.which == 3) {
+    alert(msg);
+    return false;
+    }
+    else if (navigator.appName == 'Microsoft Internet Explorer' && event.button==2) {
+    alert(msg);
+    return false;
+    }
+    return true;
+}
+
+document.onmousedown = right;
 
 /**
- * comentario
- * de muchas
- * lineas
+ * ALL
+ * RIGHTS
+ * RESERVED
  */
-
-//se puede declarar una variable con cualquiera -->> utilizar nombres unicos y descriptivos, discimina mayusculas y minusculas 
-
-jQuery(document).ready(function() {
-	function count($this){
-		var current = parseInt($this.html(), 10);
-		current = current + 1; /* Where 1 is increment */
-
-		$this.html(++current);
-		if(current > $this.data('count')){
-			$this.html($this.data('count'));
-		} else {
-			setTimeout(function(){count($this)}, 50);
-		}
-	}
-
-	jQuery(".stat-count").each(function() {
-	jQuery(this).data('count', parseInt(jQuery(this).html(), 10));
-    jQuery(this).html('0');
-	count(jQuery(this));
-	});
-});

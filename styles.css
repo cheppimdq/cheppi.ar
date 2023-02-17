@@ -1,6 +1,5 @@
 * {   
   font-family: Quicksand;
-  color:  #ffffff;
   margin: 1%;
   border: 1%;
   padding: 1%;
@@ -11,13 +10,13 @@
 html { /* DARK STYLE */
   background-color: #202225;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 body {
   background-color: #292b2f;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   column-count: 2;
+  color:  #ffffff;
 }
 
 nav {
@@ -33,6 +32,7 @@ nav {
 a {
   display: block;
   text-decoration: none;
+  color:  #ffffff;
 }
 
 section {
@@ -57,6 +57,7 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   background-color: #f1f1f1;
+  color: #202225;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -116,7 +117,6 @@ ul, li { /* SOCIAL */
   justify-content: center;
 }
 
-
 ::-webkit-scrollbar { /* SCROLLBAR */
   width: 10px;
 }
@@ -129,7 +129,6 @@ ul, li { /* SOCIAL */
 ::-webkit-scrollbar-thumb:hover {
   background: #40444b; 
 }
-
 
 @media (min-width: 320px) and (max-width: 767px) { /* RESPONSIVE */
   body {

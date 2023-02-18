@@ -49,17 +49,15 @@ article {
   align-items: center;
 }
 
-h6 {
-  text-align: right;
+h6 { text-align: right;
 }
 
 .skills {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   background-color: #f1f1f1;
   color: #202225;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   column-span: all;
 }
